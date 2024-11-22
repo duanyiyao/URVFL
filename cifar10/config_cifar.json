@@ -1,0 +1,46 @@
+{
+    "dataset": "cifar10",
+    "adv": "client_1",
+    "target": "client_2",
+    "save": true, 
+    "gantype" : "cls",
+    "epochs": 25,
+    "pretrain_epochs":20,
+    "dec_out_full" : true,
+    "dim" : 16,
+  
+
+    "lr": 1e-4,  
+    "disc_lr" : 1e-4,
+    "target_lr" : 1e-4,
+    "gan" : false,
+
+    "aux_size" : 4545,
+    "train_btz": 128,
+    "test_btz":64,
+
+    "fsha_epochs": 15,
+    "fsha_save":true,
+    "wgan":false,
+
+    "pcat_epochs":15,
+    "pcat_save":true,
+    "pcat_dec_epochs":30,
+
+    "sdar_epochs": 15,
+    "sdar_lamda1" : 0.02,
+    "sdar_lamda2" : 1e-5,
+    "sdar_save" :true,
+
+    "agn_epochs" : 15,
+    "agn_save" :true,
+    
+    "sg_ratio" : 1,
+    "gs_epochs": 8,
+    "sg_defense": true,
+    "gs_defense" : true,
+    "vfl_save" : false,
+    "grna_epochs" : 40,
+    "gia_epochs" : 50,
+    "gia_opt_round": 50
+}
