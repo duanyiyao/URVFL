@@ -1,5 +1,7 @@
 # URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning
 
+This is the official implementation of ["URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning"](https://arxiv.org/abs/2404.19582) (NDSS 2025).
+
 🎯 **Privacy attacks on VFL!**
 
 We are thrilled to present URVFL, a privacy attack algorithm that fundamentally challenges the privacy assumptions in Vertical Federated Learning. Our work not only introduces the novel URVFL and sync attacks but also provides comprehensive implementations of multiple privacy attack baselines: AGN, PCAT, SDAR, FSHA, GRNA, and GIA.
